@@ -27,7 +27,7 @@ export {app}
 //     try {
 //         await mongoose.connect(`${process.env.MONGODB_URI/DB_NAME}`)
 
-//         //sometimes the express server not able to talk with the database so this is used to handle it. so there can be multiple of this error.
+//         //sometimes the express server not able to talk with the database so this is used to handle it. so there can be multiple reasons of this error.
 //         app.on("error", () => {
 //             console.log("ERR: ", error);
 //             throw error
